@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="338.15475mm"
+   height="415.26193mm"
+   viewBox="0 0 338.15475 415.26193"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="Backhair02.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="761.74338"
+     inkscape:cy="799.2123"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:snap-global="true"
+     showguides="true"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(1355.1667,-269.28568)">
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.99999988;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+       id="rect1307"
+       width="337.15475"
+       height="414.26193"
+       x="-1354.6667"
+       y="269.78568"
+       inkscape:label="Frame" />
+    <path
+       style="opacity:1;fill:#502d16;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+       d="m -1217.0779,477.37923 c -1.2249,0.81939 -2.151,2.01223 -3.827,2.26785 0.027,-2.09052 -1.5434,-2.58282 -2.4096,-3.77976 -19.6774,9.6469 -23.3918,-30.02992 -23.6235,-36.28571 -25.0757,-137.69634 135.3655,-183.35005 128.4323,-5.77025 -2.345,18.16176 -10.1095,28.00483 -24.0542,40.3577 -4.5793,2.27919 -8.5735,4.80216 -16.0362,5.87993 -22.6936,10.94898 -40.734,4.68075 -58.4818,-2.66976 z"
+       id="path2909-5"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccc"
+       inkscape:label="Hinterhaar" />
+    <path
+       style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+       d="m -1217.2054,477.41666 c -1.2249,0.81939 -2.151,2.01223 -3.827,2.26785 0.027,-2.09052 -1.5434,-2.58282 -2.4096,-3.77976 -19.6774,9.6469 -23.3918,-30.02992 -23.6235,-36.28571 -25.0757,-137.69634 135.3655,-183.35005 128.4323,-5.77025 -2.345,18.16176 -10.1095,28.00483 -24.0542,40.3577 -4.5793,2.27919 -8.5735,4.80216 -16.0362,5.87993 -22.6936,10.94898 -40.734,4.68075 -58.4818,-2.66976 z"
+       id="path2909"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccc"
+       inkscape:label="Kontur_Hinterhaar" />
+  </g>
+</svg>

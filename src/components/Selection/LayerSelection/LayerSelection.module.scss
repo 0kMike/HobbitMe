@@ -1,0 +1,18 @@
+.buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  gap: 0.25rem;
+  padding: 0.25rem;
+
+  button {
+    font-size: 2rem;
+    font-family: "BilboHand Bold", "JetBrains Mono Bold", sans-serif;
+    font-weight: 600;
+    padding: 0.1rem 0.25rem;
+    white-space: nowrap;
+    cursor: pointer;
+    background-color: rgba(175, 100, 0, 1);
+  }
+}

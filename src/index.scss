@@ -1,11 +1,8 @@
 :root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-family: "BilboHand Regular", "JetBrains Mono Regular", sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
-
-  color: #0f0f0f;
-  background-color: #f6f6f6;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -18,4 +15,83 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  position: relative;
+}
+
+@font-face {
+  font-family: "JetBrains Mono ExtraLight";
+  font-style: normal;
+  font-weight: 200;
+  src: local(""),
+  url("./src/assets/font/jetbrainsmono/JetBrainsMono-ExtraLight.woff2") format("woff2"),
+  url("./src/assets/font/jetbrainsmono/JetBrainsMono-ExtraLight.ttf") format("truetype")
+}
+
+@font-face {
+  font-family: "JetBrains Mono ExtraLight";
+  font-style: italic;
+  font-weight: 200;
+  src: local(""),
+  url("./src/assets/font/jetbrainsmono/JetBrainsMono-ExtraLightItalic.woff2") format("woff2"),
+  url("./src/assets/font/jetbrainsmono/JetBrainsMono-ExtraLightItalic.ttf") format("truetype")
+}
+
+@font-face {
+  font-family: "JetBrains Mono Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""),
+  url("./src/assets/font/jetbrainsmono/JetBrainsMono-Regular.woff2") format("woff2"),
+  url("./src/assets/font/jetbrainsmono/JetBrainsMono-Regular.ttf") format("truetype")
+}
+
+@font-face {
+  font-family: "JetBrains Mono Regular";
+  font-style: italic;
+  font-weight: 400;
+  src: local(""),
+  url("./src/assets/font/jetbrainsmono/JetBrainsMono-Italic.woff2") format("woff2"),
+  url("./src/assets/font/jetbrainsmono/JetBrainsMono-Italic.ttf") format("truetype")
+}
+
+@font-face {
+  font-family: "JetBrains Mono SemiBold";
+  font-style: normal;
+  font-weight: 600;
+  src: local(""),
+  url("./src/assets/font/jetbrainsmono/JetBrainsMono-SemiBold.woff2") format("woff2"),
+  url("./src/assets/font/jetbrainsmono/JetBrainsMono-SemiBold.ttf") format("truetype")
+}
+
+@font-face {
+  font-family: "JetBrains Mono SemiBold";
+  font-style: italic;
+  font-weight: 600;
+  src: local(""),
+  url("./src/assets/font/jetbrainsmono/JetBrainsMono-SemiBoldItalic.woff2") format("woff2"),
+  url("./src/assets/font/jetbrainsmono/JetBrainsMono-SemiBoldItalic.ttf") format("truetype")
+}
+
+@font-face {
+  font-family: "BilboHand Light";
+  font-style: normaL;
+  font-weight: 200;
+  src: local(""),
+  url("./src/assets/font/bilboHand/BilboHandFine.ttf") format("truetype")
+}
+
+@font-face {
+  font-family: "BilboHand Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""),
+  url("./src/assets/font/bilboHand/BilboHandRegular.ttf") format("truetype")
+}
+
+@font-face {
+  font-family: "BilboHand Bold";
+  font-style: normal;
+  font-weight: 600;
+  src: local(""),
+  url("./src/assets/font/bilboHand/BilboHandBold.ttf") format("truetype")
 }
