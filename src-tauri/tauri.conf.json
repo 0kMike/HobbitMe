@@ -26,13 +26,7 @@
         "depends": []
       },
       "externalBin": [],
-      "icon": [
-        "icons/32x32.png",
-        "icons/128x128.png",
-        "icons/128x128@2x.png",
-        "icons/icon.icns",
-        "icons/icon.ico"
-      ],
+      "icon": [],
       "identifier": "com.tauri.dev",
       "longDescription": "",
       "macOS": {
@@ -60,10 +54,10 @@
     "windows": [
       {
         "fullscreen": false,
-        "height": 600,
+        "height": 768,
         "resizable": true,
         "title": "HobbitMe",
-        "width": 800
+        "width": 1024
       }
     ]
   }
