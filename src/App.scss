@@ -1,5 +1,18 @@
-.main {
+main {
   width: 100vw;
   height: 100vh;
+  background-image: url("./assets/img/map.jpg");
+  background-position: center;
+  filter: saturate(0.5) blur(2px);
+  display: grid;
+  grid-template-columns: [selection] 1fr [preview] 1fr;
+  grid-template-rows: 1fr;
+  gap: 1rem;
+  padding: 1rem;
   
+  section:first-child {
+background-color: rgba(255, 127, 0, 0.5);
+  }  section:last-child {
+background-color: rgba(0, 127, 255, 0.5);
+  }
 }
