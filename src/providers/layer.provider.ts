@@ -12,22 +12,7 @@ export const userLayers = [
   'outfit',
 ];
 
-export type SelectedLayer = (typeof userLayers)[number];
-
-export const layers = [
-  '01Backhair',
-  '02Neck',
-  '03Outfit',
-  '04Hair',
-  '05Face',
-  '06Brows',
-  '07Eyes',
-  '08Glasses',
-  '09Nose',
-  '10Mouth',
-  '11Fronthair',
-  '12Facialhair',
-];
+export type UserLayer = (typeof userLayers)[number];
 
 export const layerFiles = {
   '01Backhair': [
@@ -47,7 +32,7 @@ export const layerFiles = {
     'Outfit04_big.svg',
   ],
   '04Hair': ['Hair03.svg', 'Hair06.svg'],
-  '05Face': ['Face01.svg', 'Face02.svg', 'Face04.svg'],
+  '05Face': ['Face01.svg', 'Face02.svg', 'Face03.svg'],
   '06Brows': ['Brows01.svg', 'Brows02.svg', 'Brows03.svg', 'Brows04.svg'],
   '07Eyes': [
     'Eyes01.svg',
@@ -79,11 +64,11 @@ export const layerFiles = {
   '12Facialhair': ['Facialhair04.svg', 'Facialhair06.svg'],
 };
 
-export const [getSelectedLayer, setSelectedLayer] =
-  createSignal<SelectedLayer>('hair');
+export const [getSelectedUserLayer, setSelectedUserLayer] =
+  createSignal<UserLayer>('hair');
 
 export function getFilesNamesByLayer(): string[] {
-  switch (getSelectedLayer()) {
+  switch (getSelectedUserLayer()) {
     case 'hair':
       return layerFiles['01Backhair'];
     case 'face':
@@ -102,6 +87,31 @@ export function getFilesNamesByLayer(): string[] {
       return layerFiles['12Facialhair'];
     case 'outfit':
       return layerFiles['03Outfit'];
+    default:
+      return [];
+  }
+}
+
+export function mapUserLayer(userLayer: UserLayer) {
+  switch (userLayer) {
+    case 'hair':
+      return '01Backhair';
+    case 'face':
+      return '05Face';
+    case 'brows':
+      return '06Brows';
+    case 'eyes':
+      return '07Eyes';
+    case 'glasses':
+      return '08Glasses';
+    case 'nose':
+      return '09Nose';
+    case 'mouth':
+      return '10Mouth';
+    case 'facial hair':
+      return '12Facialhair';
+    case 'outfit':
+      return '03Outfit';
     default:
       return [];
   }

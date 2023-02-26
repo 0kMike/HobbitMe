@@ -2,14 +2,53 @@
   padding: 0.25rem;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  align-items: stretch;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  height: 100%;
+
+  .items {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 0.25rem;
+
+    .image {
+      border: 1px solid rgba(28, 28, 28, 1);
+      height: 7rem;
+      width: 7rem;
+      border-radius: 0.25rem;
+      cursor: pointer;
+      backdrop-filter: blur(0.25rem);
+    }
+
+  }
+
+  .colors {
+    width: 100%;
+
+    .picker {
+      background: url("src/assets/img/paperButtonLong.png");
+      background-size: 100% 100%;
+      padding: 1rem 2rem 1rem 2rem;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 1.75rem;
+      font-family: "BilboHand Bold", serif;
+
+      .selector {
+        cursor: pointer;
+      }
+    }
+  }
+
 }
 
-.items {
-  flex: 1;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: flex-start;
+
+.path {
+  font-family: "JetBrains Mono", sans-serif;
 }
