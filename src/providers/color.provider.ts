@@ -1,32 +1,19 @@
 import { createSignal } from 'solid-js';
 import { UserLayer } from './layer.provider';
 
-export const [getHairColor, setHairColor] = createSignal(
-  'rgba(0, 127, 255, 1)'
-);
-export const [getSkinColor, setSkinColor] = createSignal(
-  'rgba(0, 127, 255, 1)'
-);
-export const [getBrowColor, setBrowColor] = createSignal(
-  'rgba(0, 127, 255, 1)'
-);
-export const [getEyeColor, setEyeColor] = createSignal('rgba(0, 127, 255, 1)');
-export const [getFrameColor, setFrameColor] = createSignal(
-  'rgba(0, 127, 255, 1)'
-);
-export const [getGlassColor, setGlassColor] = createSignal(
-  'rgba(0, 127, 255, 1)'
-);
-export const [getLipColor, setLipColor] = createSignal('rgba(0, 127, 255, 1)');
-export const [getMainOutfitColor, setMainOutfitColor] = createSignal(
-  'rgba(0, 127, 255, 1)'
-);
-export const [getSecondaryOutfitColor, setSecondaryOutfitColor] = createSignal(
-  'rgba(0, 127, 255, 1)'
-);
-export const [getTertiaryOutfitColor, setTertiaryOutfitColor] = createSignal(
-  'rgba(0, 127, 255, 1)'
-);
+export const [getHairColor, setHairColor] = createSignal('#602500');
+export const [getSkinColor, setSkinColor] = createSignal('#ffebeb');
+export const [getBrowColor, setBrowColor] = createSignal('#602500');
+export const [getEyeColor, setEyeColor] = createSignal('#00aaff');
+export const [getFrameColor, setFrameColor] = createSignal('#000000');
+export const [getGlassColor, setGlassColor] = createSignal('#00aaff77');
+export const [getLipColor, setLipColor] = createSignal('#ff7777');
+export const [getFacialHairColor, setFacialHairColor] = createSignal('#602500');
+export const [getMainOutfitColor, setMainOutfitColor] = createSignal('#ffffff');
+export const [getSecondaryOutfitColor, setSecondaryOutfitColor] =
+  createSignal('#602500');
+export const [getTertiaryOutfitColor, setTertiaryOutfitColor] =
+  createSignal('#0f3e0f');
 
 export function getColorPickersByLayer(layer: UserLayer) {
   switch (layer) {
