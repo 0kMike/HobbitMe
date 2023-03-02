@@ -16,39 +16,67 @@
     gap: 0.25rem;
 
     .image {
-      border: 1px solid rgba(28, 28, 28, 1);
+      border: 1px solid rgba(0, 0, 0, 0.2);
       height: 7rem;
       width: 7rem;
-      border-radius: 0.25rem;
       cursor: pointer;
       backdrop-filter: blur(0.25rem);
+      transition: all 200ms ease-in-out;
+
+      &:hover {
+        background-color: rgba(150, 127, 0, 0.5);
+      }
     }
 
   }
 
   .colors {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 0.25rem;
 
     .picker {
-      background: url("src/assets/img/paperButtonLong.png");
+      font-size: 1.25rem;
+      font-family: "RingBearer", "JetBrains Mono Bold", sans-serif;
+      font-weight: 600;
+      padding: 0.15rem 0.25rem;
+      white-space: nowrap;
+      background: none;
       background-size: 100% 100%;
-      padding: 1rem 2rem 1rem 2rem;
+      transition: all 200ms ease-in-out;
+      backdrop-filter: blur(0.25rem);
+      text-align: left;
+      border: 1px solid rgba(0, 0, 0, 0.2);
       display: flex;
       flex-direction: row;
       justify-content: space-between;
       align-items: center;
-      font-size: 1.75rem;
-      font-family: "BilboHand Bold", serif;
+
+      &:hover {
+        background-color: rgba(150, 127, 0, 0.5);
+      }
 
       .selector {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        background-color: transparent;
+        width: 2.5rem;
+        height: 2.5rem;
+        border: none;
         cursor: pointer;
+      }
+
+      .selector::-webkit-color-swatch {
+        border-radius: 50%;
+      }
+
+      .selector::-moz-color-swatch {
+        border-radius: 50%;
       }
     }
   }
-
-}
-
-
-.path {
-  font-family: "JetBrains Mono", sans-serif;
 }

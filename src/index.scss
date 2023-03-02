@@ -1,5 +1,5 @@
 :root {
-  font-family: "BilboHand Regular", "JetBrains Mono Regular", sans-serif;
+  font-family: "RingBearer", "JetBrains Mono Regular", sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
@@ -95,4 +95,12 @@
   font-weight: 600;
   src: local(""),
   url("./src/assets/font/bilboHand/BilboHandBold.ttf") format("truetype")
+}
+
+@font-face {
+  font-family: "RingBearer";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""),
+  url("./src/assets/font/ringbearer/ringbearer.ttf") format("truetype")
 }
