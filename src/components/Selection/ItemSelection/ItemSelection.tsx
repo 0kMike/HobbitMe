@@ -6,6 +6,7 @@ import {
   mapUserLayer,
 } from '../../../providers/layer.provider';
 import { getColorPickersByLayer } from '../../../providers/color.provider';
+import ColorPicker from './ColorPicker/ColorPicker';
 
 export default function ItemSelection(): JSX.Element {
   return (
@@ -28,10 +29,7 @@ export default function ItemSelection(): JSX.Element {
       <div class={styles.colors}>
         <For each={getColorPickersByLayer(getSelectedUserLayer())}>
           {(colorPicker) => (
-            <div class={styles.picker}>
-              <p>{colorPicker}</p>
-              <input type='color' class={styles.selector}/>
-            </div>
+            <ColorPicker colorPicker={colorPicker} />
           )}
         </For>
       </div>

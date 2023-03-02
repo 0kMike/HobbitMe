@@ -1,20 +1,30 @@
 import { createSignal } from 'solid-js';
 import { UserLayer } from './layer.provider';
 
-export const [setEyeColor, getEyeColor] = createSignal('rgba(0, 127, 255, 1)');
-export const [setHairColor, getHairColor] = createSignal(
+export const [getHairColor, setHairColor] = createSignal(
   'rgba(0, 127, 255, 1)'
 );
-export const [setSkinColor, getSkinColor] = createSignal(
+export const [getSkinColor, setSkinColor] = createSignal(
   'rgba(0, 127, 255, 1)'
 );
-export const [setMainOutfitColor, getMainOutfitColor] = createSignal(
+export const [getBrowColor, setBrowColor] = createSignal(
   'rgba(0, 127, 255, 1)'
 );
-export const [setSecondaryOutfitColor, getSecondaryOutfitColor] = createSignal(
+export const [getEyeColor, setEyeColor] = createSignal('rgba(0, 127, 255, 1)');
+export const [getFrameColor, setFrameColor] = createSignal(
   'rgba(0, 127, 255, 1)'
 );
-export const [setTertiaryOutfitColor, getTertiaryOutfitColor] = createSignal(
+export const [getGlassColor, setGlassColor] = createSignal(
+  'rgba(0, 127, 255, 1)'
+);
+export const [getLipColor, setLipColor] = createSignal('rgba(0, 127, 255, 1)');
+export const [getMainOutfitColor, setMainOutfitColor] = createSignal(
+  'rgba(0, 127, 255, 1)'
+);
+export const [getSecondaryOutfitColor, setSecondaryOutfitColor] = createSignal(
+  'rgba(0, 127, 255, 1)'
+);
+export const [getTertiaryOutfitColor, setTertiaryOutfitColor] = createSignal(
   'rgba(0, 127, 255, 1)'
 );
 
