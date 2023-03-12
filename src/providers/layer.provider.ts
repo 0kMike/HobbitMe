@@ -14,7 +14,7 @@ export const userLayers = [
 
 export type UserLayer = (typeof userLayers)[number];
 
-export const layerFiles = {
+export const layerFiles: Record<string, string[]> = {
   '01Backhair': [
     'Backhair01.svg',
     'Backhair02.svg',

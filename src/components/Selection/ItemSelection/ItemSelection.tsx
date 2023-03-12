@@ -7,6 +7,7 @@ import {
 } from '../../../providers/layer.provider';
 import { getColorPickersByLayer } from '../../../providers/color.provider';
 import ColorPicker from './ColorPicker/ColorPicker';
+import { setItem } from '../../../providers/selection.provider';
 
 export default function ItemSelection(): JSX.Element {
   return (
@@ -21,6 +22,7 @@ export default function ItemSelection(): JSX.Element {
                 )}/${item}`}
                 class={styles.image}
                 alt='an image showing part of a hobbit'
+                onclick={() => setItem(item)}
               />
             </>
           )}
@@ -28,9 +30,7 @@ export default function ItemSelection(): JSX.Element {
       </div>
       <div class={styles.colors}>
         <For each={getColorPickersByLayer(getSelectedUserLayer())}>
-          {(colorPicker) => (
-            <ColorPicker colorPicker={colorPicker} />
-          )}
+          {(colorPicker) => <ColorPicker colorPicker={colorPicker} />}
         </For>
       </div>
     </section>
