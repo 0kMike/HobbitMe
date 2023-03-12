@@ -8,23 +8,24 @@
   height: 100%;
 
   .items {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-start;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     gap: 0.25rem;
+    width: 100%;
 
     .image {
-      border: 1px solid rgba(0, 0, 0, 0.2);
-      height: 7rem;
-      width: 7rem;
+      border: var(--border-default);
+      width: 100%;
+      aspect-ratio: 1 / 1;
       cursor: pointer;
       backdrop-filter: blur(0.25rem);
-      transition: all 200ms ease-in-out;
+      transition: var(--transiotion-default);
+      border-radius: var(--border-radius-default);
 
       &:hover {
-        background-color: rgba(150, 127, 0, 0.5);
+        transform: scale(1.05);
+        z-index: 1;
+        background-color: var(--color-bright);
       }
     }
 

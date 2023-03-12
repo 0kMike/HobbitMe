@@ -30,8 +30,12 @@ export interface ColorPickerProps {
 }
 
 export default function ColorPicker(props: ColorPickerProps): JSX.Element {
+  const triggerColorPicker = (e: MouseEvent) => {
+    ((e.currentTarget as HTMLElement).children.item(1) as HTMLElement).click();
+  };
+
   return (
-    <div class={styles.picker}>
+    <div class={styles.picker} onclick={(e) => triggerColorPicker(e)}>
       <p>{props.colorPicker}</p>
       <Switch fallback={<>Loading...</>}>
         <Match when={props.colorPicker === 'hair color'} keyed>
