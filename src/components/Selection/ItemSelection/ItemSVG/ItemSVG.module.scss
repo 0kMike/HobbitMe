@@ -1,0 +1,15 @@
+.image {
+  border: var(--border-default);
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  cursor: pointer;
+  backdrop-filter: blur(0.25rem);
+  transition: var(--transiotion-default);
+  border-radius: var(--border-radius-default);
+
+  &:hover {
+    transform: scale(1.05);
+    z-index: 1;
+    background-color: var(--color-bright);
+  }
+}
